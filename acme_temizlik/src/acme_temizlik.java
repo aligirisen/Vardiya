@@ -20,11 +20,12 @@ public class acme_temizlik {
         Firma J = new Firma("J", 0, 1);
 
         
-        Kidemsiz_Dagitici.kidemisiz_dagitan(A, B, C, D, E, F, G, H, J);
-        Kidemli_Dagitici.kidemli_dagitan(A, B, C, D, E, F, G, H, J);
-
-        Display.dispall();
- 
+        while(Display.iter_counter < 7){
+            Kidemli_Dagitici.kidemli_dagitan(A, B, C, D, E, F, G, H, J);
+            Kidemsiz_Dagitici.kidemsiz_dagitan(A, B, C, D, E, F, G, H, J);
+            Display.dispall();
+        }
+        
         
     }
 }
