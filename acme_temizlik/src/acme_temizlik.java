@@ -20,7 +20,7 @@ public class acme_temizlik {
         Firma J = new Firma("J", 0, 1);
 
         
-        while(Display.iter_counter < 7){
+        while(Display.iter_counter < 20){
             Kidemli_Dagitici.kidemli_dagitan(A, B, C, D, E, F, G, H, J);
             Kidemsiz_Dagitici.kidemsiz_dagitan(A, B, C, D, E, F, G, H, J);
             Display.dispall();

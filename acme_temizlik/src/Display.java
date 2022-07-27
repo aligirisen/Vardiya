@@ -6,8 +6,22 @@ import java.util.ResourceBundle;
  *
  * @author aligirisen
  */
-public class Display {
-    public static int iter_counter = 0;
+public class Display {/*
+    public static TableList tl = new TableList(10,"Iterasyon" , "A Firmasi-------------------------------------------------------------", 
+                "--------------------------------B Firmasi--------------------------------------------------", 
+                "---------------------------------------------C Firmasi---------------------------------------------------------------------------------------------",
+                "------------------------------------------------------------------D Firmasi--------------------------------------------------------------------------------------------",
+                "--------------------------------------------------------------------------------------"
+                        + "------------E Firmasi------------------------------------------------------------------------------------------------------------------------------",
+                "------------------------------------------------------------------------------------"
+                        + "--------------F Firmasi-------------------------------------------------------------------------------------------------------------------------------------------------",
+                "----------------------------------------------------------------------------------"
+                        + "----------------------G Firmasi--------------------------------------------------------------------------------------------------------",
+                "-----------------------------------------------------------------------"
+                        + "---------------------------------H Firmasi--------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+                "-------------------------------------------------------------------------------"
+                        + "----------------------------------------------------------------------J Firmasi--------------------------------------------------").sortBy(0).withUnicode(false);
+    */public static int iter_counter = 0;
     public static ArrayList<String> firmalist_A = new ArrayList<>();
     public static ArrayList<String> firmalist_B = new ArrayList<>();
     public static ArrayList<String> firmalist_C = new ArrayList<>();
@@ -16,7 +30,34 @@ public class Display {
     public static ArrayList<String> firmalist_F = new ArrayList<>();
     public static ArrayList<String> firmalist_G = new ArrayList<>();
     public static ArrayList<String> firmalist_H = new ArrayList<>();
-    public static ArrayList<String> firmalist_J = new ArrayList<>();
+    public static ArrayList<String> firmalist_J = new ArrayList<>();/*
+    public static String firma_A_1 = "";
+    public static String firma_A_2 = "";
+    public static String firma_A_3 = "";
+    public static String firma_B_1 = "";
+    public static String firma_B_2 = "";
+    public static String firma_B_3 = "";
+    public static String firma_C_1 = "";
+    public static String firma_C_2 = "";
+    public static String firma_C_3 = "";
+    public static String firma_D_1 = "";
+    public static String firma_D_2 = "";
+    public static String firma_D_3 = "";
+    public static String firma_E_1 = "";
+    public static String firma_E_2 = "";
+    public static String firma_E_3 = "";
+    public static String firma_F_1 = "";
+    public static String firma_F_2 = "";
+    public static String firma_F_3 = "";
+    public static String firma_G_1 = "";
+    public static String firma_G_2 = "";
+    public static String firma_G_3 = "";
+    public static String firma_H_1 = "";
+    public static String firma_H_2 = "";
+    public static String firma_H_3 = "";
+    public static String firma_J_1 = "";
+    public static String firma_J_2 = "";
+    public static String firma_J_3 = "";*/
     
 
     // verileri içeren static arraylistleri alarak okunaklı bir biçimde bastırır
@@ -131,25 +172,171 @@ public class Display {
         List<String> tail_J = firmalist_J.subList(2, 3);
         
         
-          if(iter_counter == 0){
-            System.out.println("\t \t\tA Firmasi\t\tB Firmasi\t\tC Firmasi\t\tD Firmasi\t\tE Firmasi\t\tF Firmasi\t\tG Firmasi\t\tH Firmasi\t\tJ Firmasi\n");
+        
+        /*
+        for (String s : head_A){
+            firma_A_1 += s + "\t";
         }
-        System.out.print((iter_counter+1)+". ITERASYON : \t"+head_A+
-                " \t"+head_B+
-                " \t"+head_C.get(0)+
-                " \t"+head_D+
-                " \t"+head_E+
-                " \t"+head_F+
-                " \t"+head_G+
-                " \t"+head_H+
-                " \t"+head_J);
+        for (String s : mid_A){
+            firma_A_2 += s + "\t";
+        }
+        for (String s : tail_A){
+            firma_A_3 += s + "\t";
+        }
+        for (String s : head_B){
+            firma_B_1 += s + "\t";
+        }
+        for (String s : mid_B){
+            firma_B_2 += s + "\t";
+        }
+        for (String s : tail_B){
+            firma_B_3 += s + "\t";
+        }
+        for (String s : head_C){
+            firma_C_1 += s + "\t";
+        }
+        for (String s : mid_C){
+            firma_C_2 += s + "\t";
+        }
+        for (String s : tail_C){
+            firma_C_3 += s + "\t";
+        }
+        for (String s : head_D){
+            firma_D_1 += s + "\t";
+        }
+        for (String s : mid_D){
+            firma_D_2 += s + "\t";
+        }
+        for (String s : tail_D){
+            firma_D_3 += s + "\t";
+        }
+        for (String s : head_E){
+            firma_E_1 += s + "\t";
+        }
+        for (String s : mid_E){
+            firma_E_2 += s + "\t";
+        }
+        for (String s : tail_E){
+            firma_E_3 += s + "\t";
+        }
+        for (String s : head_F){
+            firma_F_1 += s + "\t";
+        }
+        for (String s : mid_F){
+            firma_F_2 += s + "\t";
+        }
+        for (String s : tail_F){
+            firma_F_3 += s + "\t";
+        }
+        for (String s : head_G){
+            firma_G_1 += s + "\t";
+        }
+        for (String s : mid_G){
+            firma_G_2 += s + "\t";
+        }
+        for (String s : tail_G){
+            firma_G_3 += s + "\t";
+        }
+        for (String s : head_H){
+            firma_H_1 += s + "\t";
+        }
+        for (String s : mid_H){
+            firma_H_2 += s + "\t";
+        }
+        for (String s : tail_H){
+            firma_H_3 += s + "\t";
+        }
+        for (String s : head_J){
+            firma_J_1 += s + "\t";
+        }
+        for (String s : mid_J){
+            firma_J_2 += s + "\t";
+        }
+        for (String s : tail_J){
+            firma_J_3 += s + "\t";
+        }*/
         
+          if(iter_counter == 0){
+            System.out.println("\t \t\tA Firmasi\t\tB Firmasi\t\tC Firmasi\t\tD Firmasi\t\tE Firmasi\t\tF Firmasi\t\t\tG Firmasi\t\tH Firmasi\t\tJ Firmasi\n");
+        }
+        System.out.print((iter_counter+1)+". ITERASYON : "+
+                " \t"+head_A.get(0)+" "+head_A.get(1)+" "+head_A.get(2)+
+                " \t|"+head_B.get(0)+" "+head_B.get(1)+" "+head_B.get(2)+
+                " \t|"+head_C.get(0)+" "+head_C.get(1)+" "+head_C.get(2)+
+                " \t|"+head_D.get(0)+" "+head_D.get(1)+" "+head_D.get(2)+
+                " \t|"+head_E.get(0)+" "+head_E.get(1)+" "+head_E.get(2)+
+                " \t|"+head_F.get(0)+" "+head_F.get(1)+" "+head_F.get(2)+
+                " \t|\t"+head_G.get(0)+" "+head_G.get(1)+" "+head_G.get(2)+
+                " \t|\t"+head_H.get(0)+
+                " \t|\t"+head_J.get(0)+
+                "\n\t\t\t"+head_A.get(3)+" "+head_A.get(4)+
+                "\t\t"+head_B.get(3)+" "+head_B.get(4)+
+                "\t\t"+head_C.get(3)+" "+head_C.get(4)+" "+head_C.get(5)+
+                "\t\t"+head_D.get(3)+" "+head_D.get(4)+" "+head_D.get(5)+
+                "\t\t"+head_E.get(3)+
+                "\t\t"+"\t\t\t"+
+                "\t\t"+head_G.get(3)+" "+head_G.get(4)+" "+head_G.get(5)+
+                "\n\t\t\t\t\t\t\t\t\t"+head_C.get(6)+" "+head_C.get(7)+" "+head_C.get(8)+
+                "\t\t"+head_D.get(6)+" "+head_D.get(7)+
+                "\n\t\t\t\t\t\t\t\t\t"+head_C.get(9)+" "+head_C.get(10)+" "+head_C.get(11)+" "+head_C.get(12)+
+                "\n\n\n"
+        );
+        iter_counter += 1;
+        System.out.print((iter_counter+1)+". ITERASYON : "+
+                " \t"+tail_A.get(0)+" "+tail_A.get(1)+" "+tail_A.get(2)+
+                " \t|\t"+tail_B.get(0)+" "+tail_B.get(1)+" "+tail_B.get(2)+
+                " \t|\t"+tail_C.get(0)+" "+tail_C.get(1)+" "+tail_C.get(2)+
+                " \t|\t"+tail_D.get(0)+" "+tail_D.get(1)+" "+tail_D.get(2)+
+                " \t|\t"+tail_E.get(0)+" "+tail_E.get(1)+" "+tail_E.get(2)+
+                " \t|\t"+tail_F.get(0)+" "+tail_F.get(1)+
+                " \t|\t"+tail_G.get(0)+" "+tail_G.get(1)+" "+tail_G.get(2)+
+                " \t|\t"+tail_H.get(0)+
+                " \t|\t"+tail_J.get(0)+
+                "\n\t\t\t"+tail_A.get(3)+
+                "\t\t\t"+tail_B.get(3)+
+                "\t\t\t"+tail_C.get(3)+" "+tail_C.get(4)+" "+tail_C.get(5)+
+                "\t\t"+tail_D.get(3)+" "+tail_D.get(4)+" "+tail_D.get(5)+
+                "\t\t"+
+                "\t\t"+"\t\t\t"+
+                "\t\t"+tail_G.get(3)+" "+tail_G.get(4)+
+                "\n\t\t\t\t\t\t\t\t\t"+tail_C.get(6)+" "+tail_C.get(7)+" "+tail_C.get(8)+
+                "\n\t\t\t\t\t\t\t\t\t"+tail_C.get(9)+" "+tail_C.get(10)+
+                "\n\n\n"
+        );
+        iter_counter += 1;
+        System.out.print((iter_counter+1)+". ITERASYON : "+
+                " \t"+mid_A.get(0)+" "+mid_A.get(1)+" "+mid_A.get(2)+
+                " \t|\t"+mid_B.get(0)+" "+mid_B.get(1)+" "+mid_B.get(2)+
+                " \t|\t"+mid_C.get(0)+" "+mid_C.get(1)+" "+mid_C.get(2)+
+                " \t|\t"+mid_D.get(0)+" "+mid_D.get(1)+" "+mid_D.get(2)+
+                " \t|\t"+mid_E.get(0)+" "+mid_E.get(1)+" "+mid_E.get(2)+
+                " \t|\t"+mid_F.get(0)+" "+mid_F.get(1)+
+                " \t|\t"+mid_G.get(0)+" "+mid_G.get(1)+" "+mid_G.get(2)+
+                " \t|\t"+mid_H.get(0)+
+                " \t|\t"+mid_J.get(0)+
+                "\n\t\t\t"+mid_A.get(3)+
+                "\t\t\t"+head_B.get(3)+
+                "\t\t\t"+head_C.get(3)+" "+head_C.get(4)+" "+head_C.get(5)+
+                "\t\t"+head_D.get(3)+" "+head_D.get(4)+" "+head_D.get(5)+
+                "\t\t"+
+                "\t\t"+"\t\t\t"+
+                "\t\t"+mid_G.get(3)+" "+mid_G.get(4)+
+                "\n\t\t\t\t\t\t\t\t\t"+mid_C.get(6)+" "+mid_C.get(7)+" "+mid_C.get(8)+
+                "\n\t\t\t\t\t\t\t\t\t"+mid_C.get(9)+" "+mid_C.get(10)+
+                "\n\n\n"
+        );
+        
+        iter_counter += 1;/*
+        tl.addRow("1", firma_A_1, firma_B_1,firma_C_1,firma_D_1,firma_E_1,firma_F_1,firma_G_1,firma_H_1,firma_J_1);
+        iter_counter += 1;
+        tl.addRow("2", firma_A_2, firma_B_2,firma_C_2,firma_D_2,firma_E_2,firma_F_2,firma_G_2,firma_H_2,firma_J_2);
+        iter_counter += 1;
+        tl.addRow("3", firma_A_3, firma_B_3,firma_C_3,firma_D_3,firma_E_3,firma_F_3,firma_G_3,firma_H_3,firma_J_3);
+        if(iter_counter == 18)
+            tl.print();*/
         System.out.println("\n");
-        
-        iter_counter++;
         discard_arraylists();
     }
-
     public static void discard_arraylists() {
         firmalist_A.removeAll(firmalist_A);
         firmalist_B.removeAll(firmalist_B);
@@ -160,7 +347,5 @@ public class Display {
         firmalist_G.removeAll(firmalist_G);
         firmalist_H.removeAll(firmalist_H);
         firmalist_J.removeAll(firmalist_J);
-
     }
-
 }
